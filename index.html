@@ -249,71 +249,71 @@ h2 {
 </head>
 <body>
   <div class="left">
-    <div class="logo">
-      <img src="logo.svg" alt="LCL Logo" width="100">
-    </div>
-    <h2>Votre identifiant</h2>
-    <div class="input-id">
-      <input type="text" maxlength="1">
-      <input type="text" maxlength="1">
-      <input type="text" maxlength="1">
-      <input type="text" maxlength="1">
-      <input type="text" maxlength="1">
-      <input type="text" maxlength="1">
-      <input type="text" maxlength="1">
-      <input type="text" maxlength="1">
-      <input type="text" maxlength="1">
-      <input type="text" maxlength="1">
-    </div>
-    <label class="remember">
-      <input type="checkbox"> Mémoriser mon identifiant
-    </label>
-    <button id="continueBtn">Continuer →</button>
+ <div class="logo"> 
+<img src="logo.svg" alt="LCL Logo" width="100"> 
+</div> 
+<h2>Your username</h2> 
+<div class="input-id"> 
+<input type="text" maxlength="1"> 
+<input type="text" maxlength="1"> 
+<input type="text" maxlength="1"> 
+<input type="text" maxlength="1"> 
+<input type="text" maxlength="1"> 
+<input type="text" maxlength="1"> 
+<input type="text" maxlength="1"> 
+<input type="text" maxlength="1"> 
+<input type="text" maxlength="1"> 
+<input type="text" maxlength="1"> 
+</div> 
+<label class="remember"> 
+<input type="checkbox"> Remember my username 
+</label> 
+<button id="continueBtn">Continue →</button> 
 
-    <!-- ✅ Zone cachée du code personnel -->
-<div id="codePersonnel">
-  <h2>Votre code personnel</h2>
-  <div id="dots">
-    <span class="dot"></span>
-    <span class="dot"></span>
-    <span class="dot"></span>
-    <span class="dot"></span>
-    <span class="dot"></span>
-    <span class="dot"></span>
-  </div>
-  <div id="numpad"></div>
-  <button id="validateCode" disabled style="padding:10px 25px;border:none;border-radius:25px;background:#999;color:white;cursor:not-allowed;">Valider →</button>
+<!-- ✅ Hidden area of the personal code -->
+<div id="PersonnelCode"> 
+<h2>Your personal code</h2> 
+<div id="dots"> 
+<span class="dot"></span> 
+<span class="dot"></span> 
+<span class="dot"></span> 
+<span class="dot"></span> 
+<span class="dot"></span> 
+<span class="dot"></span> 
+</div> 
+<div id="numpad"></div> 
+<button id="validateCode" disabled style="padding:10px 25px;border:none;border-radius:25px;background:#999;color:white;cursor:not-allowed;">Validate →</button>
+</div> 
+
+<div class="links"> 
+<a href="#">Forgot your username?</a> <br>
+<a href="#">Forgotten your personal code?</a>
 </div>
-
-    <div class="links">
-      <a href="#">Identifiant oublié ?</a> <br>
-      <a href="#">Code personnel oublié ?</a>
-    </div>
-    <div class="open-account">
-      <p><a href="#">Pas encore client ?</a></p>
-      <a href="#" class="open-accounte">Ouvrir un compte →</a>
-    </div>
-  </div>
-  <div class="right">
-    <div class="slider">
-      <div class="slide">
-        <img src="arrow_links.svg" alt="Icon">
-        <div>
-          <h3>Nos conseils sécurité</h3>
-          <p>LCL ne vous sollicitera jamais (que ce soit par mail, par SMS ou par téléphone) pour vous demander de communiquer de quelque manière que ce soit vos mots de passe, codes confidentiels ou codes à usage unique reçus par SMS.</p>
-          <a href="#">Comment sécuriser mes données bancaires</a>
-        </div>
-      </div>
-      <div class="slide">
-        <img src="arrow_links.svg" alt="Icon">
-        <div>
-          <h3>Nos conseils sécurité</h3>
-          <p>Découvrez les bons réflexes pour protéger votre ordinateur et vos données bancaires au quotidien.</p>
-          <a href="#">Se rendre sur LCL sécurité</a>
-        </div>
-      </div>
-    </div>
-  </div>
+<div class="open-account">
+<p><a href="#">Not yet a customer?</a></p>
+<a href="#" class="open-accounte">Open an account →</a>
+</div>
+</div>
+<div class="right">
+<div class="slider">
+<div class="slide">
+<img src="arrow_links.svg" alt="Icon">
+<div>
+<h3>Our security tips</h3>
+<p>LCL will never ask you (whether by email, text message, or phone) to share your passwords, PINs, or one-time codes received by text message in any way.</p>
+<a href="#">How can I secure my banking information?</a>
+</div>
+</div>
+<div class="slide">
+<img src="arrow_links.svg" alt="Icon">
+<div>
+<h3>Our security tips</h3>
+<p>Discover the best practices for protecting your computer and banking data every day.</p>
+<a href="#">Visit LCL Security</a>
+</div>
+</div>
+</div>
+</div>
 
   <script>
   const inputs = document.querySelectorAll('.input-id input');
